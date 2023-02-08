@@ -1,6 +1,10 @@
 # Herramientas de traducción
 
-## 1. Buscador
+## Detalles
+Todas las herramientas han sido escritas en Python 3.11.1 y compiladas con PyInstaller 5.7.0
+
+## Herramientas
+### 1. Buscador
   **Descripción:**
   Recibe una serie de palabras y devuelve:
   <br /> &emsp;**Si se ha _encontrado una palabra_:** un archivo .txt con información respecto a los archivos y líneas donde se encuentran dichas palabras
