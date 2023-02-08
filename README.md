@@ -2,7 +2,7 @@
 
 ## Detalles
 Todas las herramientas están escritas en Python 3.11.1 y compiladas con PyInstaller 5.7.0
-Las herramientas están listas para ser usadas desde la sección "Releases" a la derecha -->
+<br />Las herramientas están listas para ser usadas desde la sección "Releases" a la derecha -->
 
 ## Herramientas
 ### 1. Buscador
