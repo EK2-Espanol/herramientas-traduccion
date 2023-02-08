@@ -13,7 +13,7 @@ Todas las herramientas están escritas en Python 3.11.1 y compiladas con PyInsta
   **Propósito:** Ayudar a la corrección, principalmente tras ver algún fallo ingame
   <br /> <br />
   **A tener en cuenta:**
-  <br /> &emsp;Importante comprobar que el programa está en la raíz del directorio de la traducción
+  <br /> &emsp;Comprobar que el programa está en la raíz del directorio de la traducción
   <br /> &emsp;No distingue entre mayúsculas y minúsculas
   <br /> &emsp;No distingue entre palabras y sílabas; En caso de buscar "Escarcha" devolverá también "Rompescarcha"
   <br /> <br />
