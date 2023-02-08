@@ -1,7 +1,7 @@
 # Herramientas de traducción
 
 ## Detalles
-Todas las herramientas han sido escritas en Python 3.11.1 y compiladas con PyInstaller 5.7.0
+Todas las herramientas están escritas en Python 3.11.1 y compiladas con PyInstaller 5.7.0
 
 ## Herramientas
 ### 1. Buscador
