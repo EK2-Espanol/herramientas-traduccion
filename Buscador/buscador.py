@@ -17,15 +17,16 @@ def search_word(entry):
                     lines = f.readlines()
                     for line_number, line in enumerate(lines):
                         if any(string.lower() in line.lower() for string in strings_to_search):
-                            if not file_already_found:
+                            if not file_already_found: 
                                 found_files.append(os.path.relpath(file_path))
                                 file_already_found = True
                             if os.path.relpath(file_path) not in found_lines:
                                 found_lines[os.path.relpath(file_path)] = []
                             found_lines[os.path.relpath(file_path)].append("Line {}: {}".format(line_number+1, line.strip()))
 
+
     if len(found_files) == 0:
-        messagebox.showwarning("Advertencia", "No se ha encontrado ninguna de las palabras introducidas.")
+        messagebox.showwarning("Advertencia","No se ha encontrado ninguna de las palabras introducidas.")
         return
 
     with open(found_files_name, "w", encoding="utf-8-sig") as found_files_txt:
@@ -37,6 +38,7 @@ def search_word(entry):
                 found_files_txt.write("\t{}\n".format(line))
 
         os.startfile(found_files_name)
+
         found_files_txt.close()
         
             
@@ -46,7 +48,7 @@ class MainWindow(tk.Tk):
 
         self.title("Buscador")
         self.geometry("500x200")
-        self.resizable(0, 0)
+        self.resizable(0,0)
 
         self.label_entry = tk.Label(self, text="Introduce las palabras a buscar separadas por comas:")
         self.label_entry.pack(side='top')
@@ -59,7 +61,6 @@ class MainWindow(tk.Tk):
 
         self.search_button = tk.Button(self, width=10, text="Buscar", command=lambda: search_word(self.entry))
         self.search_button.pack(side='top')
-
 
 if __name__ == "__main__":
     window = MainWindow()
