@@ -1,7 +1,7 @@
 # Herramientas de traducción
 
 ## Detalles
-Todas las herramientas están escritas en Python 3.11.1 y compiladas con PyInstaller 5.7.0
+Todas las herramientas están escritas en Python 3.10.10 y compiladas con Nuitka 1.4.5
 <br />Las herramientas están listas para ser usadas desde la sección "Releases" a la derecha -->
 
 ## Herramientas
