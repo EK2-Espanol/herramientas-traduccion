@@ -60,7 +60,7 @@ class MainWindow(tk.Tk):
         self.search_button = tk.Button(self, width=10, text="Buscar", command=lambda: search_word(self.entry))
         self.search_button.pack(side='top')
 
+
 if __name__ == "__main__":
     window = MainWindow()
     window.mainloop()
-
